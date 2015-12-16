@@ -1,0 +1,17 @@
+﻿root = true
+
+[*]
+charset = utf-8-bom
+end_of_line = crlf
+indent_style = space
+indent_size = 4
+trim_trailing_whitespace = true
+
+[{.gitignore, .gitattributes, .editorconfig}]
+charset = utf-8
+end_of_line = lf
+
+[.git/*]
+charset = utf-8
+end_of_line = lf
+
